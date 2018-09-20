@@ -1,0 +1,12 @@
+let re = /11+/g;
+let str = '101100111001111';
+let match = str.match(re);
+console.log(match);
+console.log(match.length);
+pos = str.search(match[0]);
+let zeros = [0,0,0,0];
+console.log(str.split(''));
+let array = str.split('');
+console.log(array.splice(pos, match[0].length, ...zeros.slice(0, match[0].length)));
+console.log(array);
+console.log(zeros.slice(0, match[0].length));
