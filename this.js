@@ -17,6 +17,7 @@ function test() {
     this.testMore0();
 }
 
+//just test
 //tmp = 'tmp';
 //console.log(tmp);
 //func = function() {};
